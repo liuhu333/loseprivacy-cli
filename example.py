@@ -16,7 +16,7 @@ from loseprivacy import LosePrivacy
 
 host = 'https://api.loseprivacy.cyou'
 # 此处填入从LosePrivacy获取的API KEY
-apikey = 'LosePrivacy API KEY'
+apikey = 'loseprivacy_apikey'  # 已根据第二段代码修改为正确格式
 # 此处填入API KEY的请求速率(速率值受限于API KEY的权限)
 ratelimit = 2
 timeout = 60
@@ -30,4 +30,3 @@ def main():
 
 if __name__ == "__main__":
         main()
-
